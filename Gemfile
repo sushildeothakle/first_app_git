@@ -12,7 +12,7 @@ group :development, :test do
   gem 'sqlite3'
 end
 
-gem 'rails_12factor'
+gem 'rails_12factor', group: :production
 
 
 gem 'execjs'
